@@ -1,0 +1,107 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f0f9ff"/>
+  
+  <!-- Tech Workshop Scene -->
+  <g transform="translate(50, 30)">
+    <!-- Main presentation screen -->
+    <rect x="0" y="0" width="250" height="140" fill="white" stroke="#2563eb" stroke-width="3"/>
+    <rect x="10" y="10" width="230" height="120" fill="#dbeafe"/>
+    
+    <!-- Screen content -->
+    <text x="125" y="30" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#2563eb">Tech Workshop</text>
+    <text x="125" y="50" font-family="Arial" font-size="12" text-anchor="middle" fill="#1e40af">AI & Machine Learning</text>
+    
+    <!-- Workshop diagram -->
+    <rect x="30" y="60" width="40" height="30" fill="#3b82f6" rx="4"/>
+    <text x="50" y="78" font-family="Arial" font-size="10" font-weight="bold" text-anchor="middle" fill="white">Data</text>
+    
+    <rect x="90" y="60" width="40" height="30" fill="#8b5cf6" rx="4"/>
+    <text x="110" y="78" font-family="Arial" font-size="10" font-weight="bold" text-anchor="middle" fill="white">Model</text>
+    
+    <rect x="150" y="60" width="40" height="30" fill="#10b981" rx="4"/>
+    <text x="170" y="78" font-family="Arial" font-size="10" font-weight="bold" text-anchor="middle" fill="white">Output</text>
+    
+    <!-- Arrows -->
+    <path d="M75 75 L85 75" stroke="#6b7280" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <path d="M135 75 L145 75" stroke="#6b7280" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Date and time -->
+    <rect x="20" y="100" width="210" height="20" fill="#1e40af"/>
+    <text x="125" y="112" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Saturday, March 15, 2025 | 10:00 AM - 4:00 PM</text>
+    
+    <!-- Stand -->
+    <rect x="120" y="140" width="10" height="15" fill="#6b7280"/>
+    <rect x="100" y="155" width="50" height="5" fill="#6b7280"/>
+  </g>
+  
+  <!-- Attendees -->
+  <g transform="translate(20, 200)">
+    <!-- Laptops representing attendees -->
+    <rect x="0" y="0" width="45" height="30" fill="#1f2937" rx="2"/>
+    <rect x="3" y="3" width="39" height="24" fill="#3b82f6"/>
+    
+    <rect x="60" y="0" width="45" height="30" fill="#1f2937" rx="2"/>
+    <rect x="63" y="3" width="39" height="24" fill="#3b82f6"/>
+    
+    <rect x="120" y="0" width="45" height="30" fill="#1f2937" rx="2"/>
+    <rect x="123" y="3" width="39" height="24" fill="#3b82f6"/>
+    
+    <rect x="180" y="0" width="45" height="30" fill="#1f2937" rx="2"/>
+    <rect x="183" y="3" width="39" height="24" fill="#3b82f6"/>
+    
+    <rect x="240" y="0" width="45" height="30" fill="#1f2937" rx="2"/>
+    <rect x="243" y="3" width="39" height="24" fill="#3b82f6"/>
+    
+    <rect x="300" y="0" width="45" height="30" fill="#1f2937" rx="2"/>
+    <rect x="303" y="3" width="39" height="24" fill="#3b82f6"/>
+    
+    <!-- Notebooks -->
+    <rect x="10" y="35" width="25" height="20" fill="white" stroke="#9ca3af" stroke-width="1"/>
+    <rect x="70" y="35" width="25" height="20" fill="white" stroke="#9ca3af" stroke-width="1"/>
+    <rect x="130" y="35" width="25" height="20" fill="white" stroke="#9ca3af" stroke-width="1"/>
+    <rect x="190" y="35" width="25" height="20" fill="white" stroke="#9ca3af" stroke-width="1"/>
+    <rect x="250" y="35" width="25" height="20" fill="white" stroke="#9ca3af" stroke-width="1"/>
+    <rect x="310" y="35" width="25" height="20" fill="white" stroke="#9ca3af" stroke-width="1"/>
+  </g>
+  
+  <!-- Floating tech icons -->
+  <g opacity="0.7">
+    <!-- AI -->
+    <circle cx="30" cy="50" r="15" fill="#8b5cf6"/>
+    <text x="30" y="55" font-family="Arial" font-size="8" font-weight="bold" text-anchor="middle" fill="white">AI</text>
+    
+    <!-- ML -->
+    <circle cx="370" cy="50" r="15" fill="#10b981"/>
+    <text x="370" y="55" font-family="Arial" font-size="8" font-weight="bold" text-anchor="middle" fill="white">ML</text>
+    
+    <!-- Python -->
+    <circle cx="30" cy="150" r="15" fill="#3776ab"/>
+    <text x="30" y="155" font-family="Arial" font-size="8" font-weight="bold" text-anchor="middle" fill="white">PY</text>
+    
+    <!-- TensorFlow -->
+    <circle cx="370" cy="150" r="15" fill="#ff6f00"/>
+    <text x="370" y="155" font-family="Arial" font-size="8" font-weight="bold" text-anchor="middle" fill="white">TF</text>
+  </g>
+  
+  <!-- Workshop details -->
+  <g transform="translate(320, 90)">
+    <rect x="0" y="0" width="60" height="80" fill="white" stroke="#2563eb" stroke-width="2"/>
+    <text x="30" y="15" font-family="Arial" font-size="10" font-weight="bold" text-anchor="middle" fill="#2563eb">Workshop</text>
+    <text x="30" y="25" font-family="Arial" font-size="10" font-weight="bold" text-anchor="middle" fill="#2563eb">Details</text>
+    
+    <text x="30" y="40" font-family="Arial" font-size="8" text-anchor="middle" fill="#1e40af">✓ Hands-on</text>
+    <text x="30" y="50" font-family="Arial" font-size="8" text-anchor="middle" fill="#1e40af">✓ Interactive</text>
+    <text x="30" y="60" font-family="Arial" font-size="8" text-anchor="middle" fill="#1e40af">✓ Certificate</text>
+    <text x="30" y="70" font-family="Arial" font-size="8" text-anchor="middle" fill="#1e40af">✓ Materials</text>
+  </g>
+  
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#6b7280"/>
+    </marker>
+  </defs>
+  
+  <!-- Title -->
+  <text x="200" y="290" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#1f2937">Tech Workshop</text>
+</svg>

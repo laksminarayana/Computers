@@ -1,0 +1,53 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="24" cy="24" r="22" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  
+  <!-- Computer Monitor -->
+  <rect x="12" y="14" width="24" height="16" rx="2" fill="white" stroke="#2563eb" stroke-width="2"/>
+  <rect x="15" y="17" width="18" height="10" fill="#f0f9ff"/>
+  
+  <!-- Monitor Stand -->
+  <rect x="22" y="30" width="4" height="4" fill="#2563eb"/>
+  <rect x="18" y="34" width="12" height="2" rx="1" fill="#2563eb"/>
+  
+  <!-- Code Lines on Screen -->
+  <line x1="17" y1="19" x2="25" y2="19" stroke="#3b82f6" stroke-width="1.5"/>
+  <line x1="17" y1="22" x2="29" y2="22" stroke="#3b82f6" stroke-width="1.5"/>
+  <line x1="17" y1="25" x2="22" y2="25" stroke="#3b82f6" stroke-width="1.5"/>
+  
+  <!-- Programming Symbols -->
+  <text x="28" y="21" font-family="monospace" font-size="4" fill="#2563eb">&lt;/&gt;</text>
+  <text x="28" y="25" font-family="monospace" font-size="4" fill="#2563eb">{}</text>
+  
+  <!-- Keyboard -->
+  <rect x="10" y="38" width="28" height="6" rx="1" fill="#e5e7eb" stroke="#6b7280" stroke-width="1"/>
+  <rect x="12" y="40" width="24" height="2" fill="#f9fafb"/>
+  
+  <!-- Keyboard Keys -->
+  <rect x="13" y="40.5" width="1.5" height="1" fill="#9ca3af"/>
+  <rect x="15" y="40.5" width="1.5" height="1" fill="#9ca3af"/>
+  <rect x="17" y="40.5" width="1.5" height="1" fill="#9ca3af"/>
+  <rect x="19" y="40.5" width="1.5" height="1" fill="#9ca3af"/>
+  <rect x="21" y="40.5" width="1.5" height="1" fill="#9ca3af"/>
+  <rect x="23" y="40.5" width="1.5" height="1" fill="#9ca3af"/>
+  <rect x="25" y="40.5" width="1.5" height="1" fill="#9ca3af"/>
+  <rect x="27" y="40.5" width="1.5" height="1" fill="#9ca3af"/>
+  <rect x="29" y="40.5" width="1.5" height="1" fill="#9ca3af"/>
+  <rect x="31" y="40.5" width="1.5" height="1" fill="#9ca3af"/>
+  <rect x="33" y="40.5" width="1.5" height="1" fill="#9ca3af"/>
+  
+  <!-- Learning Icon (Book) -->
+  <rect x="32" y="8" width="8" height="6" rx="1" fill="#fbbf24" stroke="#f59e0b" stroke-width="1"/>
+  <line x1="34" y1="10" x2="38" y2="10" stroke="#f59e0b" stroke-width="0.8"/>
+  <line x1="34" y1="12" x2="36" y2="12" stroke="#f59e0b" stroke-width="0.8"/>
+  
+  <!-- Progress Indicators -->
+  <circle cx="6" cy="12" r="2" fill="#10b981"/>
+  <circle cx="42" cy="36" r="2" fill="#ef4444"/>
+  <circle cx="6" cy="36" r="2" fill="#8b5cf6"/>
+  
+  <!-- Connection Lines -->
+  <path d="M8 12 L12 14" stroke="#10b981" stroke-width="1" opacity="0.5"/>
+  <path d="M40 36 L36 30" stroke="#ef4444" stroke-width="1" opacity="0.5"/>
+  <path d="M8 36 L12 30" stroke="#8b5cf6" stroke-width="1" opacity="0.5"/>
+</svg>

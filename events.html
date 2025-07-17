@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events - KK Computers</title>
+    <meta name="description" content="Join KK Computers' exciting events including Hack the Web and other technology workshops. Register now for upcoming events and competitions.">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/images/logos/logo-main.svg">
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-4">
+            <div class="flex items-center justify-between h-16">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <img src="assets/images/logos/header-logo.png" alt="KK Computers" class="h-10 w-auto hidden md:block">
+                    <img src="assets/images/logos/main-logo.png" alt="KK Computers" class="h-8 w-auto md:hidden">
+                    <span class="ml-2 text-xl font-bold text-blue-600">KK Computers</span>
+                </div>
+                
+                <!-- Navigation -->
+                <nav class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-gray-700 hover:text-blue-600 transition-colors">Home</a>
+                    <a href="about.html" class="text-gray-700 hover:text-blue-600 transition-colors">About</a>
+                    <a href="services.html" class="text-gray-700 hover:text-blue-600 transition-colors">Services</a>
+                    <a href="events.html" class="text-blue-600 font-medium">Events</a>
+                    <a href="contact.html" class="text-gray-700 hover:text-blue-600 transition-colors">Contact</a>
+                </nav>
+                
+                <!-- Mobile menu button -->
+                <button class="md:hidden" id="mobile-menu-btn">
+                    <i class="fas fa-bars text-gray-700"></i>
+                </button>
+            </div>
+            
+            <!-- Mobile navigation -->
+            <nav class="md:hidden hidden" id="mobile-menu">
+                <div class="py-2 space-y-2">
+                    <a href="index.html" class="block py-2 text-gray-700 hover:text-blue-600">Home</a>
+                    <a href="about.html" class="block py-2 text-gray-700 hover:text-blue-600">About</a>
+                    <a href="services.html" class="block py-2 text-gray-700 hover:text-blue-600">Services</a>
+                    <a href="events.html" class="block py-2 text-blue-600 font-medium">Events</a>
+                    <a href="contact.html" class="block py-2 text-gray-700 hover:text-blue-600">Contact</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="bg-gradient-to-r from-purple-600 to-blue-600 text-white py-16">
+        <div class="container mx-auto px-4">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">Events & Competitions</h1>
+                <p class="text-xl md:text-2xl text-purple-100">Join our exciting technology events and showcase your skills</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Event - Hack the Web -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Featured Event</h2>
+                <p class="text-xl text-gray-600">Don't miss our premier technology competition</p>
+            </div>
+            
+            <div class="bg-gradient-to-r from-purple-100 to-blue-100 rounded-lg p-8 md:p-12">
+                <div class="grid md:grid-cols-2 gap-8 items-center">
+                    <div>
+                        <div class="bg-purple-600 text-white inline-block px-4 py-2 rounded-full text-sm font-semibold mb-4">
+                            FEATURED EVENT
+                        </div>
+                        <h3 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Hack the Web</h3>
+                        <p class="text-lg text-gray-700 mb-6">Join the ultimate web development hackathon where creativity meets technology. Build innovative web applications, compete with talented developers, and showcase your skills to industry experts.</p>
+                        
+                        <div class="grid md:grid-cols-2 gap-4 mb-6">
+                            <div class="flex items-center">
+                                <i class="fas fa-calendar text-purple-600 mr-3"></i>
+                                <span class="text-gray-700">January 20-22, 2025</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-clock text-purple-600 mr-3"></i>
+                                <span class="text-gray-700">48 Hour Challenge</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-trophy text-purple-600 mr-3"></i>
+                                <span class="text-gray-700">$10,000 Prize Pool</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-users text-purple-600 mr-3"></i>
+                                <span class="text-gray-700">Team of 2-4 members</span>
+                            </div>
+                        </div>
+                        
+                        <div class="flex flex-col sm:flex-row gap-4">
+                            <a href="contact.html" class="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors text-center">Register Now</a>
+                            <a href="#event-details" class="border-2 border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white px-8 py-3 rounded-lg font-semibold transition-colors text-center">Learn More</a>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <img src="assets/images/events/event-1.jpg" alt="Hack the Web Event" class="rounded-lg shadow-lg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Event Details -->
+    <section id="event-details" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Event Details</h2>
+                <p class="text-xl text-gray-600">Everything you need to know about Hack the Web</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Event Timeline -->
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-6">Event Timeline</h3>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="bg-purple-600 text-white rounded-full w-10 h-10 flex items-center justify-center mr-4 mt-1">
+                                <span class="text-sm font-bold">1</span>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900">Registration & Team Formation</h4>
+                                <p class="text-sm text-gray-600">January 20, 9:00 AM - 10:00 AM</p>
+                                <p class="text-gray-600">Check-in, team formation, and event briefing</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="bg-purple-600 text-white rounded-full w-10 h-10 flex items-center justify-center mr-4 mt-1">
+                                <span class="text-sm font-bold">2</span>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900">Hackathon Begins</h4>
+                                <p class="text-sm text-gray-600">January 20, 10:00 AM</p>
+                                <p class="text-gray-600">48-hour coding challenge starts with theme announcement</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="bg-purple-600 text-white rounded-full w-10 h-10 flex items-center justify-center mr-4 mt-1">
+                                <span class="text-sm font-bold">3</span>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900">Mentorship Sessions</h4>
+                                <p class="text-sm text-gray-600">January 20-21, Multiple times</p>
+                                <p class="text-gray-600">Get guidance from industry experts and experienced developers</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="bg-purple-600 text-white rounded-full w-10 h-10 flex items-center justify-center mr-4 mt-1">
+                                <span class="text-sm font-bold">4</span>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900">Project Submission</h4>
+                                <p class="text-sm text-gray-600">January 22, 10:00 AM</p>
+                                <p class="text-gray-600">Final project submission and demo preparation</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="bg-purple-600 text-white rounded-full w-10 h-10 flex items-center justify-center mr-4 mt-1">
+                                <span class="text-sm font-bold">5</span>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900">Presentations & Awards</h4>
+                                <p class="text-sm text-gray-600">January 22, 2:00 PM - 5:00 PM</p>
+                                <p class="text-gray-600">Team presentations, judging, and award ceremony</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Event Requirements -->
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-6">Requirements & Prizes</h3>
+                    
+                    <div class="mb-6">
+                        <h4 class="text-lg font-semibold text-gray-900 mb-3">What You Need</h4>
+                        <ul class="space-y-2 text-gray-600">
+                            <li class="flex items-center"><i class="fas fa-laptop text-purple-600 mr-2"></i>Your own laptop/computer</li>
+                            <li class="flex items-center"><i class="fas fa-code text-purple-600 mr-2"></i>Basic web development knowledge</li>
+                            <li class="flex items-center"><i class="fas fa-users text-purple-600 mr-2"></i>Team of 2-4 members</li>
+                            <li class="flex items-center"><i class="fas fa-heart text-purple-600 mr-2"></i>Passion for innovation</li>
+                            <li class="flex items-center"><i class="fas fa-coffee text-purple-600 mr-2"></i>Plenty of energy and enthusiasm</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <h4 class="text-lg font-semibold text-gray-900 mb-3">Prizes & Awards</h4>
+                        <ul class="space-y-2 text-gray-600">
+                            <li class="flex items-center"><i class="fas fa-medal text-yellow-500 mr-2"></i>1st Place: $5,000 + Internship Opportunity</li>
+                            <li class="flex items-center"><i class="fas fa-medal text-gray-400 mr-2"></i>2nd Place: $3,000 + Certification Course</li>
+                            <li class="flex items-center"><i class="fas fa-medal text-amber-600 mr-2"></i>3rd Place: $2,000 + Workshop Access</li>
+                            <li class="flex items-center"><i class="fas fa-star text-purple-600 mr-2"></i>Best Innovation Award</li>
+                            <li class="flex items-center"><i class="fas fa-star text-purple-600 mr-2"></i>People's Choice Award</li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h4 class="text-lg font-semibold text-gray-900 mb-3">What's Provided</h4>
+                        <ul class="space-y-2 text-gray-600">
+                            <li class="flex items-center"><i class="fas fa-utensils text-purple-600 mr-2"></i>Meals and refreshments</li>
+                            <li class="flex items-center"><i class="fas fa-wifi text-purple-600 mr-2"></i>High-speed internet</li>
+                            <li class="flex items-center"><i class="fas fa-bed text-purple-600 mr-2"></i>Sleeping arrangements</li>
+                            <li class="flex items-center"><i class="fas fa-gamepad text-purple-600 mr-2"></i>Gaming and relaxation area</li>
+                            <li class="flex items-center"><i class="fas fa-user-tie text-purple-600 mr-2"></i>Industry mentors</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Event Gallery -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Event Gallery</h2>
+                <p class="text-xl text-gray-600">Highlights from our previous events</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-6">
+                <img src="attached_assets/about.png" alt="Team Collaboration" class="rounded-lg shadow-md gallery-item hover:scale-105 transition-transform">
+                <img src="assets/images/services/course-1.jpg" alt="Award Ceremony" class="rounded-lg shadow-md gallery-item hover:scale-105 transition-transform">
+                <img src="assets/images/gallery/gallery-1.jpg" alt="Coding Session" class="rounded-lg shadow-md gallery-item hover:scale-105 transition-transform">
+                <img src="assets/images/gallery/gallery-2.jpg" alt="Mentorship Session" class="rounded-lg shadow-md gallery-item hover:scale-105 transition-transform">
+                <img src="assets/images/gallery/gallery-3.svg" alt="Team Presentation" class="rounded-lg shadow-md gallery-item hover:scale-105 transition-transform">
+            </div>
+        </div>
+    </section>
+
+    <!-- Upcoming Events -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Upcoming Events</h2>
+                <p class="text-xl text-gray-600">More exciting events coming soon</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- AI/ML Workshop -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                    <img src="assets/images/logos/image.png" alt="AI/ML Workshop" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-semibold">Workshop</span>
+                            <span class="text-sm text-gray-600">March 15, 2025</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">AI & Machine Learning Workshop</h3>
+                        <p class="text-gray-600 mb-4">Dive into the world of artificial intelligence and machine learning with hands-on projects and expert guidance.</p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-blue-600 font-semibold">$99</span>
+                            <a href="contact.html" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-semibold transition-colors">Register</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Cybersecurity Bootcamp -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                    <img src="assets/images/services/image.png" alt="Cybersecurity Bootcamp" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="bg-red-600 text-white px-3 py-1 rounded-full text-sm font-semibold">Bootcamp</span>
+                            <span class="text-sm text-gray-600">April 20, 2025</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Cybersecurity Bootcamp</h3>
+                        <p class="text-gray-600 mb-4">Learn essential cybersecurity skills and protect systems from modern threats in this intensive bootcamp.</p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-red-600 font-semibold">$149</span>
+                            <a href="contact.html" class="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg text-sm font-semibold transition-colors">Register</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Mobile App Development Challenge -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                    <img src="assets/images/services/image1.png" alt="Mobile App Challenge" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="bg-green-600 text-white px-3 py-1 rounded-full text-sm font-semibold">Challenge</span>
+                            <span class="text-sm text-gray-600">May 10, 2025</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Mobile App Development Challenge</h3>
+                        <p class="text-gray-600 mb-4">Build innovative mobile applications and compete for prizes in this exciting development challenge.</p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-green-600 font-semibold">Free</span>
+                            <a href="contact.html" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg text-sm font-semibold transition-colors">Register</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Cloud Computing Summit -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                    <img src="assets/images/gallery/gallery-1.jpg" alt="Cloud Computing Summit" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-sm font-semibold">Summit</span>
+                            <span class="text-sm text-gray-600">June 5, 2025</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Cloud Computing Summit</h3>
+                        <p class="text-gray-600 mb-4">Explore the latest trends in cloud computing and network with industry professionals.</p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-indigo-600 font-semibold">$199</span>
+                            <a href="contact.html" class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg text-sm font-semibold transition-colors">Register</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration CTA -->
+    <section class="py-16 bg-gradient-to-r from-purple-600 to-blue-600 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">Ready to Join the Competition?</h2>
+            <p class="text-xl mb-8">Don't miss out on our exciting events and opportunities to showcase your skills</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="contact.html" class="bg-white text-purple-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">Register for Hack the Web</a>
+                <a href="contact.html" class="border-2 border-white text-white hover:bg-white hover:text-purple-600 px-8 py-3 rounded-lg font-semibold transition-colors">Get Event Updates</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white">
+        <div class="container mx-auto px-4 py-12">
+            <div class="grid md:grid-cols-4 gap-8">
+                <!-- Company Info -->
+                <div>
+                    <img src="assets/images/logos/logo-footer.svg" alt="KK Computers" class="h-12 w-auto mb-4">
+                    <p class="text-gray-300 mb-4">Premier IT training institute providing comprehensive technology education and professional development programs.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-300 hover:text-white">Home</a></li>
+                        <li><a href="about.html" class="text-gray-300 hover:text-white">About Us</a></li>
+                        <li><a href="services.html" class="text-gray-300 hover:text-white">Services</a></li>
+                        <li><a href="events.html" class="text-gray-300 hover:text-white">Events</a></li>
+                        <li><a href="contact.html" class="text-gray-300 hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Services -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Services</h3>
+                    <ul class="space-y-2">
+                        <li><a href="services.html" class="text-gray-300 hover:text-white">IT Training</a></li>
+                        <li><a href="services.html" class="text-gray-300 hover:text-white">Certifications</a></li>
+                        <li><a href="services.html" class="text-gray-300 hover:text-white">Software Development</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white">FAQ</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact Info -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Contact Info</h3>
+                    <div class="space-y-2 text-gray-300">
+                        <p><i class="fas fa-map-marker-alt mr-2"></i>123 Technology Street, IT City, TC 12345</p>
+                        <p><i class="fas fa-phone mr-2"></i>+1 (555) 123-4567</p>
+                        <p><i class="fas fa-envelope mr-2"></i>info@kkcomputers.com</p>
+                        <p><i class="fas fa-clock mr-2"></i>Mon - Fri: 9AM - 6PM</p>
+                    </div>
+                    <div class="mt-4">
+                        <p class="text-sm text-gray-400">Helpline: +1 (555) 987-6543</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 KK Computers. All rights reserved. | <a href="#" class="hover:text-white">Terms of Service</a> | <a href="#" class="hover:text-white">Privacy Policy</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="fixed inset-0 bg-black bg-opacity-75 z-50 hidden items-center justify-center">
+        <div class="relative max-w-4xl max-h-full p-4">
+            <button id="closeLightbox" class="absolute top-4 right-4 text-white text-3xl hover:text-gray-300 z-10">
+                <i class="fas fa-times"></i>
+            </button>
+            <img id="lightboxImage" src="" alt="" class="max-w-full max-h-full object-contain">
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

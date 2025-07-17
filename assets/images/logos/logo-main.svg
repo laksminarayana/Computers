@@ -1,0 +1,53 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="60" cy="60" r="58" fill="#2563eb" stroke="#1d4ed8" stroke-width="4"/>
+  
+  <!-- Computer Monitor -->
+  <rect x="25" y="35" width="50" height="35" rx="3" fill="white" stroke="#1d4ed8" stroke-width="2"/>
+  <rect x="30" y="40" width="40" height="25" fill="#dbeafe"/>
+  
+  <!-- Monitor Stand -->
+  <rect x="55" y="70" width="10" height="8" fill="white"/>
+  <rect x="45" y="78" width="30" height="4" rx="2" fill="white"/>
+  
+  <!-- Screen Content (Code Lines) -->
+  <line x1="33" y1="45" x2="50" y2="45" stroke="#2563eb" stroke-width="1.5"/>
+  <line x1="33" y1="50" x2="60" y2="50" stroke="#2563eb" stroke-width="1.5"/>
+  <line x1="33" y1="55" x2="45" y2="55" stroke="#2563eb" stroke-width="1.5"/>
+  <line x1="33" y1="60" x2="55" y2="60" stroke="#2563eb" stroke-width="1.5"/>
+  
+  <!-- Keyboard -->
+  <rect x="20" y="85" width="60" height="15" rx="2" fill="white" stroke="#1d4ed8" stroke-width="1.5"/>
+  <rect x="25" y="88" width="50" height="9" fill="#f3f4f6"/>
+  
+  <!-- Keyboard Keys -->
+  <rect x="27" y="90" width="3" height="2" fill="#9ca3af"/>
+  <rect x="32" y="90" width="3" height="2" fill="#9ca3af"/>
+  <rect x="37" y="90" width="3" height="2" fill="#9ca3af"/>
+  <rect x="42" y="90" width="3" height="2" fill="#9ca3af"/>
+  <rect x="47" y="90" width="3" height="2" fill="#9ca3af"/>
+  <rect x="52" y="90" width="3" height="2" fill="#9ca3af"/>
+  <rect x="57" y="90" width="3" height="2" fill="#9ca3af"/>
+  <rect x="62" y="90" width="3" height="2" fill="#9ca3af"/>
+  <rect x="67" y="90" width="3" height="2" fill="#9ca3af"/>
+  
+  <!-- Company Initials -->
+  <text x="60" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">KK</text>
+  
+  <!-- Decorative Elements -->
+  <circle cx="85" cy="25" r="3" fill="#fbbf24"/>
+  <circle cx="95" cy="35" r="2" fill="#34d399"/>
+  <circle cx="90" cy="45" r="2.5" fill="#f472b6"/>
+  
+  <!-- Tech Circuit Pattern -->
+  <path d="M15 15 L25 15 L25 25 L35 25" stroke="#60a5fa" stroke-width="1" fill="none" opacity="0.6"/>
+  <path d="M105 15 L95 15 L95 25 L85 25" stroke="#60a5fa" stroke-width="1" fill="none" opacity="0.6"/>
+  <path d="M15 105 L25 105 L25 95 L35 95" stroke="#60a5fa" stroke-width="1" fill="none" opacity="0.6"/>
+  <path d="M105 105 L95 105 L95 95 L85 95" stroke="#60a5fa" stroke-width="1" fill="none" opacity="0.6"/>
+  
+  <!-- Small Circuit Nodes -->
+  <circle cx="20" cy="20" r="1.5" fill="#60a5fa"/>
+  <circle cx="100" cy="20" r="1.5" fill="#60a5fa"/>
+  <circle cx="20" cy="100" r="1.5" fill="#60a5fa"/>
+  <circle cx="100" cy="100" r="1.5" fill="#60a5fa"/>
+</svg>

@@ -1,0 +1,78 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#dbeafe"/>
+  
+  <!-- IT Training Scene -->
+  <g transform="translate(50, 50)">
+    <!-- Main Screen/Projector -->
+    <rect x="0" y="0" width="300" height="180" fill="white" stroke="#2563eb" stroke-width="3"/>
+    <rect x="10" y="10" width="280" height="160" fill="#f8fafc"/>
+    
+    <!-- Screen Content - Programming -->
+    <text x="150" y="30" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#2563eb">IT Training Program</text>
+    
+    <!-- Code example -->
+    <rect x="30" y="50" width="240" height="100" fill="#1f2937" rx="4"/>
+    <text x="40" y="70" font-family="monospace" font-size="12" fill="#60a5fa">class</text>
+    <text x="80" y="70" font-family="monospace" font-size="12" fill="#fbbf24">KKComputers</text>
+    <text x="180" y="70" font-family="monospace" font-size="12" fill="#d1d5db">{</text>
+    
+    <text x="50" y="90" font-family="monospace" font-size="12" fill="#34d399">public</text>
+    <text x="100" y="90" font-family="monospace" font-size="12" fill="#60a5fa">void</text>
+    <text x="130" y="90" font-family="monospace" font-size="12" fill="#fbbf24">teachProgramming</text>
+    <text x="240" y="90" font-family="monospace" font-size="12" fill="#d1d5db">() {</text>
+    
+    <text x="60" y="110" font-family="monospace" font-size="12" fill="#d1d5db">System.out.println(</text>
+    <text x="190" y="110" font-family="monospace" font-size="12" fill="#f472b6">"Learn with us!"</text>
+    <text x="250" y="110" font-family="monospace" font-size="12" fill="#d1d5db">);</text>
+    
+    <text x="50" y="130" font-family="monospace" font-size="12" fill="#d1d5db">}</text>
+    <text x="40" y="140" font-family="monospace" font-size="12" fill="#d1d5db">}</text>
+    
+    <!-- Curriculum outline -->
+    <text x="40" y="165" font-family="Arial" font-size="10" fill="#2563eb">✓ Programming Languages</text>
+    <text x="180" y="165" font-family="Arial" font-size="10" fill="#2563eb">✓ Web Development</text>
+    
+    <!-- Stand -->
+    <rect x="145" y="180" width="10" height="20" fill="#6b7280"/>
+    <rect x="120" y="200" width="60" height="8" fill="#6b7280"/>
+  </g>
+  
+  <!-- Students/Laptops -->
+  <g transform="translate(20, 220)">
+    <!-- Student laptops -->
+    <rect x="0" y="0" width="50" height="30" fill="#1f2937" rx="2"/>
+    <rect x="5" y="5" width="40" height="20" fill="#3b82f6"/>
+    
+    <rect x="80" y="0" width="50" height="30" fill="#1f2937" rx="2"/>
+    <rect x="85" y="5" width="40" height="20" fill="#3b82f6"/>
+    
+    <rect x="160" y="0" width="50" height="30" fill="#1f2937" rx="2"/>
+    <rect x="165" y="5" width="40" height="20" fill="#3b82f6"/>
+    
+    <rect x="240" y="0" width="50" height="30" fill="#1f2937" rx="2"/>
+    <rect x="245" y="5" width="40" height="20" fill="#3b82f6"/>
+    
+    <rect x="320" y="0" width="50" height="30" fill="#1f2937" rx="2"/>
+    <rect x="325" y="5" width="40" height="20" fill="#3b82f6"/>
+  </g>
+  
+  <!-- Floating icons -->
+  <g opacity="0.7">
+    <!-- Programming languages -->
+    <circle cx="30" cy="30" r="15" fill="#f59e0b"/>
+    <text x="30" y="35" font-family="Arial" font-size="10" font-weight="bold" text-anchor="middle" fill="white">JS</text>
+    
+    <circle cx="370" cy="30" r="15" fill="#3b82f6"/>
+    <text x="370" y="35" font-family="Arial" font-size="10" font-weight="bold" text-anchor="middle" fill="white">PY</text>
+    
+    <circle cx="30" cy="150" r="15" fill="#059669"/>
+    <text x="30" y="155" font-family="Arial" font-size="10" font-weight="bold" text-anchor="middle" fill="white">C++</text>
+    
+    <circle cx="370" cy="150" r="15" fill="#dc2626"/>
+    <text x="370" y="155" font-family="Arial" font-size="10" font-weight="bold" text-anchor="middle" fill="white">Java</text>
+  </g>
+  
+  <!-- Title -->
+  <text x="200" y="290" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#1f2937">IT Training Programs</text>
+</svg>

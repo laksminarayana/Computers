@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - KK Computers</title>
+    <meta name="description" content="Learn about KK Computers' mission, vision, and commitment to excellence in IT education. Meet our expert team and discover our journey.">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/images/logos/logo-main.svg">
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-4">
+            <div class="flex items-center justify-between h-16">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <img src="assets/images/logos/header-logo.png" alt="KK Computers" class="h-10 w-auto hidden md:block">
+                    <img src="assets/images/logos/main-logo.png" alt="KK Computers" class="h-8 w-auto md:hidden">
+                    <span class="ml-2 text-xl font-bold text-blue-600">KK Computers</span>
+                </div>
+                
+                <!-- Navigation -->
+                <nav class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-gray-700 hover:text-blue-600 transition-colors">Home</a>
+                    <a href="about.html" class="text-blue-600 font-medium">About</a>
+                    <a href="services.html" class="text-gray-700 hover:text-blue-600 transition-colors">Services</a>
+                    <a href="events.html" class="text-gray-700 hover:text-blue-600 transition-colors">Events</a>
+                    <a href="contact.html" class="text-gray-700 hover:text-blue-600 transition-colors">Contact</a>
+                </nav>
+                
+                <!-- Mobile menu button -->
+                <button class="md:hidden" id="mobile-menu-btn">
+                    <i class="fas fa-bars text-gray-700"></i>
+                </button>
+            </div>
+            
+            <!-- Mobile navigation -->
+            <nav class="md:hidden hidden" id="mobile-menu">
+                <div class="py-2 space-y-2">
+                    <a href="index.html" class="block py-2 text-gray-700 hover:text-blue-600">Home</a>
+                    <a href="about.html" class="block py-2 text-blue-600 font-medium">About</a>
+                    <a href="services.html" class="block py-2 text-gray-700 hover:text-blue-600">Services</a>
+                    <a href="events.html" class="block py-2 text-gray-700 hover:text-blue-600">Events</a>
+                    <a href="contact.html" class="block py-2 text-gray-700 hover:text-blue-600">Contact</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="relative h-96 md:h-[500px] overflow-hidden">
+        <div class="carousel-container">
+            <div class="carousel-slide active">
+                <img src="assets/images/hero/hero-1.jpg" alt="IT Training Excellence" class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-blue-900 bg-opacity-50 flex items-center justify-center">
+                    <div class="text-center text-white">
+                        <h1 class="text-4xl md:text-6xl font-bold mb-4">Excellence in IT Training</h1>
+                        <p class="text-xl md:text-2xl mb-8">Empowering careers through technology education</p>
+                        <a href="services.html" class="bg-yellow-500 hover:bg-yellow-600 text-black px-8 py-3 rounded-lg font-semibold transition-colors">Explore Courses</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="carousel-slide">
+                <img src="assets/images/hero/hero-2.jpg" alt="Professional Certifications" class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-green-900 bg-opacity-50 flex items-center justify-center">
+                    <div class="text-center text-white">
+                        <h1 class="text-4xl md:text-6xl font-bold mb-4">Professional Certifications</h1>
+                        <p class="text-xl md:text-2xl mb-8">Industry-recognized credentials for career advancement</p>
+                        <a href="services.html" class="bg-yellow-500 hover:bg-yellow-600 text-black px-8 py-3 rounded-lg font-semibold transition-colors">Get Certified</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="carousel-slide">
+                <img src="assets/images/gallery/guntur-1.jpg" alt="Modern Learning Environment" class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-purple-900 bg-opacity-50 flex items-center justify-center">
+                    <div class="text-center text-white">
+                        <h1 class="text-4xl md:text-6xl font-bold mb-4">Modern Learning Environment</h1>
+                        <p class="text-xl md:text-2xl mb-8">State-of-the-art facilities for hands-on learning</p>
+                        <a href="contact.html" class="bg-yellow-500 hover:bg-yellow-600 text-black px-8 py-3 rounded-lg font-semibold transition-colors">Visit Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Carousel Controls -->
+        <button class="carousel-btn prev" id="prevBtn">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="carousel-btn next" id="nextBtn">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+        
+        <!-- Carousel Indicators -->
+        <div class="carousel-indicators">
+            <button class="indicator active" data-slide="0"></button>
+            <button class="indicator" data-slide="1"></button>
+            <button class="indicator" data-slide="2"></button>
+        </div>
+    </section>
+    <!-- Page Header -->
+    <section class="bg-blue-600 text-white py-16">
+        <div class="container mx-auto px-4">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">About KK Computers</h1>
+                <p class="text-xl md:text-2xl text-blue-100">Empowering careers through excellence in IT education</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Story -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Our Story</h2>
+                    <p class="text-gray-600 leading-relaxed mb-6">Founded in 2010, KK Computers has been at the forefront of IT education, providing comprehensive training programs that bridge the gap between academic knowledge and industry requirements. Our journey began with a simple mission: to empower individuals with the technological skills needed to thrive in the digital age.</p>
+                    <p class="text-gray-600 leading-relaxed mb-6">Over the years, we have evolved from a small training center to a premier IT education institute, serving over 1,500 students and maintaining partnerships with leading technology companies. Our commitment to excellence and innovation has made us a trusted name in the IT training industry.</p>
+                    <p class="text-gray-600 leading-relaxed">Today, we continue to adapt and expand our offerings to meet the ever-changing demands of the technology sector, ensuring our students are always equipped with the most current and relevant skills.</p>
+                </div>
+                <div class="grid grid-cols-2 gap-4">
+                    <img src="assets/images/gallery/gallery-1.jpg" alt="Our Journey" class="rounded-lg shadow-md gallery-item">
+                    <img src="assets/images/gallery/gallery-2.jpg" alt="Growth" class="rounded-lg shadow-md gallery-item">
+                    <img src="assets/images/team/team-3.jpg" alt="Innovation" class="rounded-lg shadow-md gallery-item">
+                    <img src="assets/images/team/team-1.jpg" alt="Success" class="rounded-lg shadow-md gallery-item">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission & Vision -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Mission & Vision</h2>
+                <p class="text-xl text-gray-600">Guiding principles that drive our commitment to excellence</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white rounded-lg shadow-lg p-8">
+                    <div class="text-center mb-6">
+                        <i class="fas fa-bullseye text-4xl text-blue-600 mb-4"></i>
+                        <h3 class="text-2xl font-bold text-gray-900">Our Mission</h3>
+                    </div>
+                    <p class="text-gray-600 leading-relaxed text-center">To provide comprehensive, industry-relevant IT training and certification programs that empower individuals with the skills needed to excel in the rapidly evolving technology landscape. We are committed to fostering innovation, creativity, and professional growth in a supportive learning environment.</p>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-lg p-8">
+                    <div class="text-center mb-6">
+                        <i class="fas fa-eye text-4xl text-green-600 mb-4"></i>
+                        <h3 class="text-2xl font-bold text-gray-900">Our Vision</h3>
+                    </div>
+                    <p class="text-gray-600 leading-relaxed text-center">To be the leading IT training institute that bridges the gap between academic knowledge and industry requirements, creating skilled professionals who drive technological innovation and contribute to the global digital transformation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Values -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Core Values</h2>
+                <p class="text-xl text-gray-600">The principles that guide everything we do</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <div class="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-graduation-cap text-2xl text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Excellence</h3>
+                    <p class="text-gray-600">We strive for the highest standards in everything we do, from curriculum design to student support.</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="bg-green-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-lightbulb text-2xl text-green-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Innovation</h3>
+                    <p class="text-gray-600">We embrace new technologies and teaching methods to provide cutting-edge education.</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="bg-purple-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-heart text-2xl text-purple-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Integrity</h3>
+                    <p class="text-gray-600">We maintain the highest ethical standards and build trust through transparency and honesty.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Meet Our Expert Team</h2>
+                <p class="text-xl text-gray-600">Experienced professionals dedicated to your success</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden team-card">
+                    <img src="assets/images/team/team-1.jpg" alt="John Smith" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">John Smith</h3>
+                        <p class="text-blue-600 font-medium mb-2">Director & Senior Instructor</p>
+                        <p class="text-gray-600 text-sm mb-4">15+ years in software development and IT training. Expert in Python, Java, and cloud technologies.</p>
+                        <div class="flex space-x-3">
+                            <a href="#" class="text-gray-400 hover:text-blue-600"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="text-gray-400 hover:text-blue-600"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="text-gray-400 hover:text-blue-600"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden team-card">
+                    <img src="assets/images/team/team-2.jpg" alt="Sarah Johnson" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Sarah Johnson</h3>
+                        <p class="text-blue-600 font-medium mb-2">Lead Web Development Instructor</p>
+                        <p class="text-gray-600 text-sm mb-4">10+ years in web development. Specializes in React, Node.js, and modern frontend technologies.</p>
+                        <div class="flex space-x-3">
+                            <a href="#" class="text-gray-400 hover:text-blue-600"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="text-gray-400 hover:text-blue-600"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="text-gray-400 hover:text-blue-600"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden team-card">
+                    <img src="assets/images/team/team-3.jpg" alt="Michael Brown" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Michael Brown</h3>
+                        <p class="text-blue-600 font-medium mb-2">Database & Systems Instructor</p>
+                        <p class="text-gray-600 text-sm mb-4">12+ years in database administration and system architecture. Expert in SQL, NoSQL, and DevOps.</p>
+                        <div class="flex space-x-3">
+                            <a href="#" class="text-gray-400 hover:text-blue-600"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="text-gray-400 hover:text-blue-600"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="text-gray-400 hover:text-blue-600"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievement Gallery -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Achievements</h2>
+                <p class="text-xl text-gray-600">Celebrating milestones and success stories</p>
+            </div>
+            
+            <div class="grid md:grid-cols-4 gap-6">
+                <img src="assets/images/gallery/gallery-1.jpg" alt="Award Ceremony" class="rounded-lg shadow-md gallery-item hover:scale-105 transition-transform">
+                <img src="assets/images/gallery/gallery-2.jpg" alt="Student Success" class="rounded-lg shadow-md gallery-item hover:scale-105 transition-transform">
+                <img src="assets/images/gallery/blood-donation.jpg" alt="Industry Partnership" class="rounded-lg shadow-md gallery-item hover:scale-105 transition-transform">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white">
+        <div class="container mx-auto px-4 py-12">
+            <div class="grid md:grid-cols-4 gap-8">
+                <!-- Company Info -->
+                <div>
+                    <img src="assets/images/logos/logo-footer.svg" alt="KK Computers" class="h-12 w-auto mb-4">
+                    <p class="text-gray-300 mb-4">Premier IT training institute providing comprehensive technology education and professional development programs.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-300 hover:text-white">Home</a></li>
+                        <li><a href="about.html" class="text-gray-300 hover:text-white">About Us</a></li>
+                        <li><a href="services.html" class="text-gray-300 hover:text-white">Services</a></li>
+                        <li><a href="events.html" class="text-gray-300 hover:text-white">Events</a></li>
+                        <li><a href="contact.html" class="text-gray-300 hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Services -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Services</h3>
+                    <ul class="space-y-2">
+                        <li><a href="services.html" class="text-gray-300 hover:text-white">IT Training</a></li>
+                        <li><a href="services.html" class="text-gray-300 hover:text-white">Certifications</a></li>
+                        <li><a href="services.html" class="text-gray-300 hover:text-white">Software Development</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white">FAQ</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact Info -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Contact Info</h3>
+                    <div class="space-y-2 text-gray-300">
+                        <p><i class="fas fa-map-marker-alt mr-2"></i>123 Technology Street, IT City, TC 12345</p>
+                        <p><i class="fas fa-phone mr-2"></i>+1 (555) 123-4567</p>
+                        <p><i class="fas fa-envelope mr-2"></i>info@kkcomputers.com</p>
+                        <p><i class="fas fa-clock mr-2"></i>Mon - Fri: 9AM - 6PM</p>
+                    </div>
+                    <div class="mt-4">
+                        <p class="text-sm text-gray-400">Helpline: +1 (555) 987-6543</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 KK Computers. All rights reserved. | <a href="#" class="hover:text-white">Terms of Service</a> | <a href="#" class="hover:text-white">Privacy Policy</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="fixed inset-0 bg-black bg-opacity-75 z-50 hidden items-center justify-center">
+        <div class="relative max-w-4xl max-h-full p-4">
+            <button id="closeLightbox" class="absolute top-4 right-4 text-white text-3xl hover:text-gray-300 z-10">
+                <i class="fas fa-times"></i>
+            </button>
+            <img id="lightboxImage" src="" alt="" class="max-w-full max-h-full object-contain">
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

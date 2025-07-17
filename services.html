@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - KK Computers</title>
+    <meta name="description" content="Explore KK Computers' comprehensive IT training, certification programs, and custom software development services. Transform your career with our expert-led courses.">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/images/logos/logo-main.svg">
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-4">
+            <div class="flex items-center justify-between h-16">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <img src="assets/images/logos/header-logo.png" alt="KK Computers" class="h-10 w-auto hidden md:block">
+                    <img src="assets/images/logos/main-logo.png" alt="KK Computers" class="h-8 w-auto md:hidden">
+                    <span class="ml-2 text-xl font-bold text-blue-600">KK Computers</span>
+                </div>
+                
+                <!-- Navigation -->
+                <nav class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-gray-700 hover:text-blue-600 transition-colors">Home</a>
+                    <a href="about.html" class="text-gray-700 hover:text-blue-600 transition-colors">About</a>
+                    <a href="services.html" class="text-blue-600 font-medium">Services</a>
+                    <a href="events.html" class="text-gray-700 hover:text-blue-600 transition-colors">Events</a>
+                    <a href="contact.html" class="text-gray-700 hover:text-blue-600 transition-colors">Contact</a>
+                </nav>
+                
+                <!-- Mobile menu button -->
+                <button class="md:hidden" id="mobile-menu-btn">
+                    <i class="fas fa-bars text-gray-700"></i>
+                </button>
+            </div>
+            
+            <!-- Mobile navigation -->
+            <nav class="md:hidden hidden" id="mobile-menu">
+                <div class="py-2 space-y-2">
+                    <a href="index.html" class="block py-2 text-gray-700 hover:text-blue-600">Home</a>
+                    <a href="about.html" class="block py-2 text-gray-700 hover:text-blue-600">About</a>
+                    <a href="services.html" class="block py-2 text-blue-600 font-medium">Services</a>
+                    <a href="events.html" class="block py-2 text-gray-700 hover:text-blue-600">Events</a>
+                    <a href="contact.html" class="block py-2 text-gray-700 hover:text-blue-600">Contact</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="bg-blue-600 text-white py-16">
+        <div class="container mx-auto px-4">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">Our Services</h1>
+                <p class="text-xl md:text-2xl text-blue-100">Comprehensive IT solutions for individuals and businesses</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">What We Offer</h2>
+                <p class="text-xl text-gray-600">Transform your career with our expert-led programs and services</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- IT Training -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                    <img src="assets/images/services/service-1.svg" alt="IT Training Programs" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <img src="assets/images/icons/it-training.svg" alt="IT Training Icon" class="w-10 h-10 mr-4">
+                            <h3 class="text-2xl font-bold text-gray-900">IT Training</h3>
+                        </div>
+                        <p class="text-gray-600 mb-4">Comprehensive training programs covering programming, web development, database management, and emerging technologies with hands-on experience.</p>
+                        <ul class="text-sm text-gray-600 space-y-2 mb-6">
+                            <li><i class="fas fa-check text-green-600 mr-2"></i>Programming Languages (Python, Java, C++)</li>
+                            <li><i class="fas fa-check text-green-600 mr-2"></i>Web Development (HTML, CSS, JavaScript, React)</li>
+                            <li><i class="fas fa-check text-green-600 mr-2"></i>Database Management (MySQL, MongoDB)</li>
+                            <li><i class="fas fa-check text-green-600 mr-2"></i>Mobile App Development</li>
+                        </ul>
+                        <a href="contact.html" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-semibold transition-colors">Enroll Now</a>
+                    </div>
+                </div>
+                
+                <!-- Certifications -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                    <img src="assets/images/services/service-2.svg" alt="Professional Certifications" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <img src="assets/images/icons/certifications.svg" alt="Certifications Icon" class="w-10 h-10 mr-4">
+                            <h3 class="text-2xl font-bold text-gray-900">Certifications</h3>
+                        </div>
+                        <p class="text-gray-600 mb-4">Industry-recognized certifications from leading technology companies and organizations to validate your skills and boost your career prospects.</p>
+                        <ul class="text-sm text-gray-600 space-y-2 mb-6">
+                            <li><i class="fas fa-check text-green-600 mr-2"></i>Microsoft Azure Fundamentals</li>
+                            <li><i class="fas fa-check text-green-600 mr-2"></i>AWS Cloud Practitioner</li>
+                            <li><i class="fas fa-check text-green-600 mr-2"></i>Google Cloud Associate</li>
+                            <li><i class="fas fa-check text-green-600 mr-2"></i>CompTIA A+ Certification</li>
+                        </ul>
+                        <a href="contact.html" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-semibold transition-colors">Get Certified</a>
+                    </div>
+                </div>
+                
+                <!-- Software Development -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                    <img src="assets/images/services/service-3.svg" alt="Software Development Services" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <img src="assets/images/icons/software-dev.svg" alt="Software Development Icon" class="w-10 h-10 mr-4">
+                            <h3 class="text-2xl font-bold text-gray-900">Software Development</h3>
+                        </div>
+                        <p class="text-gray-600 mb-4">Custom software solutions, web applications, and mobile apps tailored to your business needs with modern technologies and best practices.</p>
+                        <ul class="text-sm text-gray-600 space-y-2 mb-6">
+                            <li><i class="fas fa-check text-green-600 mr-2"></i>Custom Web Applications</li>
+                            <li><i class="fas fa-check text-green-600 mr-2"></i>Mobile App Development</li>
+                            <li><i class="fas fa-check text-green-600 mr-2"></i>Database Design & Implementation</li>
+                            <li><i class="fas fa-check text-green-600 mr-2"></i>API Development & Integration</li>
+                        </ul>
+                        <a href="contact.html" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-semibold transition-colors">Start Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Course Categories -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Course Categories</h2>
+                <p class="text-xl text-gray-600">Choose from our wide range of specialized training programs</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Programming Fundamentals -->
+                <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
+                    <div class="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-code text-2xl text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2 text-center">Programming Fundamentals</h3>
+                    <p class="text-gray-600 text-center text-sm">Learn the basics of programming with popular languages like Python, Java, and C++.</p>
+                </div>
+                
+                <!-- Web Development -->
+                <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
+                    <div class="bg-green-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-globe text-2xl text-green-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2 text-center">Web Development</h3>
+                    <p class="text-gray-600 text-center text-sm">Master frontend and backend development with modern frameworks and tools.</p>
+                </div>
+                
+                <!-- Database Management -->
+                <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
+                    <div class="bg-purple-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-database text-2xl text-purple-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2 text-center">Database Management</h3>
+                    <p class="text-gray-600 text-center text-sm">Learn to design, implement, and manage databases using SQL and NoSQL technologies.</p>
+                </div>
+                
+                <!-- Mobile App Development -->
+                <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
+                    <div class="bg-yellow-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-mobile-alt text-2xl text-yellow-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2 text-center">Mobile App Development</h3>
+                    <p class="text-gray-600 text-center text-sm">Create native and cross-platform mobile applications for iOS and Android.</p>
+                </div>
+                
+                <!-- Cloud Computing -->
+                <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
+                    <div class="bg-indigo-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-cloud text-2xl text-indigo-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2 text-center">Cloud Computing</h3>
+                    <p class="text-gray-600 text-center text-sm">Master cloud platforms like AWS, Azure, and Google Cloud for modern applications.</p>
+                </div>
+                
+                <!-- Cybersecurity -->
+                <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
+                    <div class="bg-red-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-shield-alt text-2xl text-red-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2 text-center">Cybersecurity</h3>
+                    <p class="text-gray-600 text-center text-sm">Learn to protect systems and data from cyber threats and security vulnerabilities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Gallery -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Training Environment</h2>
+                <p class="text-xl text-gray-600">State-of-the-art facilities and modern learning environment</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-6">
+                <img src="assets/images/gallery/gallery-1.jpg" alt="Modern Computer Lab" class="rounded-lg shadow-md gallery-item hover:scale-105 transition-transform">
+                <img src="assets/images/gallery/gallery-2.jpg" alt="Interactive Classroom" class="rounded-lg shadow-md gallery-item hover:scale-105 transition-transform">
+                <img src="assets/images/services/category-4.jpg" alt="Collaborative Learning Space" class="rounded-lg shadow-md gallery-item hover:scale-105 transition-transform">
+                <img src="assets/images/services/category-1.jpg" alt="Hands-on Training" class="rounded-lg shadow-md gallery-item hover:scale-105 transition-transform">
+                <img src="assets/images/services/category-2.jpg" alt="Certification Lab" class="rounded-lg shadow-md gallery-item hover:scale-105 transition-transform">
+                <img src="assets/images/services/category-3.jpg" alt="Development Workshop" class="rounded-lg shadow-md gallery-item hover:scale-105 transition-transform">
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Plans -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Training Packages</h2>
+                <p class="text-xl text-gray-600">Choose the perfect plan for your learning journey</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Basic Package -->
+                <div class="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow">
+                    <div class="text-center mb-6">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-2">Basic Package</h3>
+                        <div class="text-4xl font-bold text-blue-600 mb-2">$299</div>
+                        <p class="text-gray-600">Perfect for beginners</p>
+                    </div>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-3"></i>1 Programming Language</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-3"></i>Basic Project</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-3"></i>Certificate of Completion</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-3"></i>Email Support</li>
+                    </ul>
+                    <a href="contact.html" class="block w-full bg-blue-600 hover:bg-blue-700 text-white text-center py-3 rounded-lg font-semibold transition-colors">Get Started</a>
+                </div>
+                
+                <!-- Professional Package -->
+                <div class="bg-white rounded-lg shadow-lg p-8 border-2 border-blue-600 hover:shadow-xl transition-shadow relative">
+                    <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                        <span class="bg-blue-600 text-white px-4 py-1 rounded-full text-sm font-semibold">Popular</span>
+                    </div>
+                    <div class="text-center mb-6">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-2">Professional Package</h3>
+                        <div class="text-4xl font-bold text-blue-600 mb-2">$599</div>
+                        <p class="text-gray-600">Best for career growth</p>
+                    </div>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-3"></i>3 Programming Languages</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-3"></i>Advanced Projects</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-3"></i>Industry Certification</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-3"></i>Job Placement Support</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-3"></i>24/7 Support</li>
+                    </ul>
+                    <a href="contact.html" class="block w-full bg-blue-600 hover:bg-blue-700 text-white text-center py-3 rounded-lg font-semibold transition-colors">Get Started</a>
+                </div>
+                
+                <!-- Enterprise Package -->
+                <div class="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow">
+                    <div class="text-center mb-6">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-2">Enterprise Package</h3>
+                        <div class="text-4xl font-bold text-blue-600 mb-2">$999</div>
+                        <p class="text-gray-600">Complete mastery program</p>
+                    </div>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-3"></i>All Programming Languages</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-3"></i>Real-world Projects</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-3"></i>Multiple Certifications</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-3"></i>Guaranteed Job Placement</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-3"></i>Personal Mentor</li>
+                    </ul>
+                    <a href="contact.html" class="block w-full bg-blue-600 hover:bg-blue-700 text-white text-center py-3 rounded-lg font-semibold transition-colors">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-16 bg-blue-600 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">Ready to Start Your IT Journey?</h2>
+            <p class="text-xl mb-8">Join thousands of successful graduates who have transformed their careers with KK Computers</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="contact.html" class="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">Get Started Today</a>
+                <a href="contact.html" class="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 rounded-lg font-semibold transition-colors">Schedule Consultation</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white">
+        <div class="container mx-auto px-4 py-12">
+            <div class="grid md:grid-cols-4 gap-8">
+                <!-- Company Info -->
+                <div>
+                    <img src="assets/images/logos/logo-footer.svg" alt="KK Computers" class="h-12 w-auto mb-4">
+                    <p class="text-gray-300 mb-4">Premier IT training institute providing comprehensive technology education and professional development programs.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-300 hover:text-white">Home</a></li>
+                        <li><a href="about.html" class="text-gray-300 hover:text-white">About Us</a></li>
+                        <li><a href="services.html" class="text-gray-300 hover:text-white">Services</a></li>
+                        <li><a href="events.html" class="text-gray-300 hover:text-white">Events</a></li>
+                        <li><a href="contact.html" class="text-gray-300 hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Services -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Services</h3>
+                    <ul class="space-y-2">
+                        <li><a href="services.html" class="text-gray-300 hover:text-white">IT Training</a></li>
+                        <li><a href="services.html" class="text-gray-300 hover:text-white">Certifications</a></li>
+                        <li><a href="services.html" class="text-gray-300 hover:text-white">Software Development</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white">FAQ</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact Info -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Contact Info</h3>
+                    <div class="space-y-2 text-gray-300">
+                        <p><i class="fas fa-map-marker-alt mr-2"></i>123 Technology Street, IT City, TC 12345</p>
+                        <p><i class="fas fa-phone mr-2"></i>+1 (555) 123-4567</p>
+                        <p><i class="fas fa-envelope mr-2"></i>info@kkcomputers.com</p>
+                        <p><i class="fas fa-clock mr-2"></i>Mon - Fri: 9AM - 6PM</p>
+                    </div>
+                    <div class="mt-4">
+                        <p class="text-sm text-gray-400">Helpline: +1 (555) 987-6543</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 KK Computers. All rights reserved. | <a href="#" class="hover:text-white">Terms of Service</a> | <a href="#" class="hover:text-white">Privacy Policy</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="fixed inset-0 bg-black bg-opacity-75 z-50 hidden items-center justify-center">
+        <div class="relative max-w-4xl max-h-full p-4">
+            <button id="closeLightbox" class="absolute top-4 right-4 text-white text-3xl hover:text-gray-300 z-10">
+                <i class="fas fa-times"></i>
+            </button>
+            <img id="lightboxImage" src="" alt="" class="max-w-full max-h-full object-contain">
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

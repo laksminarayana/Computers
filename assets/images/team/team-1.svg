@@ -1,0 +1,74 @@
+<svg width="300" height="400" viewBox="0 0 300 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="400" fill="#f1f5f9"/>
+  
+  <!-- Professional Portrait -->
+  <g transform="translate(75, 50)">
+    <!-- Head -->
+    <circle cx="75" cy="60" r="45" fill="#fbbf24"/>
+    
+    <!-- Hair -->
+    <path d="M30 50 Q75 20 120 50 Q120 30 100 25 Q75 15 50 25 Q30 30 30 50" fill="#92400e"/>
+    
+    <!-- Face -->
+    <circle cx="75" cy="60" r="40" fill="#fed7aa"/>
+    
+    <!-- Eyes -->
+    <circle cx="65" cy="50" r="3" fill="#1f2937"/>
+    <circle cx="85" cy="50" r="3" fill="#1f2937"/>
+    
+    <!-- Nose -->
+    <path d="M75 55 L73 65 L77 65 Z" fill="#fdba74"/>
+    
+    <!-- Mouth -->
+    <path d="M70 70 Q75 75 80 70" stroke="#92400e" stroke-width="2" fill="none"/>
+    
+    <!-- Suit -->
+    <rect x="45" y="100" width="60" height="80" fill="#1f2937"/>
+    <rect x="50" y="105" width="50" height="70" fill="#374151"/>
+    
+    <!-- Shirt -->
+    <rect x="60" y="105" width="30" height="70" fill="white"/>
+    
+    <!-- Tie -->
+    <path d="M72 105 L75 105 L78 105 L80 175 L70 175 Z" fill="#2563eb"/>
+    
+    <!-- Suit lapels -->
+    <path d="M50 105 L60 105 L65 120 L50 130 Z" fill="#1f2937"/>
+    <path d="M100 105 L90 105 L85 120 L100 130 Z" fill="#1f2937"/>
+    
+    <!-- Hands -->
+    <circle cx="40" cy="150" r="8" fill="#fed7aa"/>
+    <circle cx="110" cy="150" r="8" fill="#fed7aa"/>
+    
+    <!-- Arms -->
+    <rect x="35" y="120" width="15" height="30" fill="#1f2937"/>
+    <rect x="100" y="120" width="15" height="30" fill="#1f2937"/>
+  </g>
+  
+  <!-- Professional Background Elements -->
+  <g opacity="0.3">
+    <!-- Books -->
+    <rect x="20" y="320" width="40" height="6" fill="#2563eb"/>
+    <rect x="20" y="335" width="35" height="6" fill="#059669"/>
+    <rect x="20" y="350" width="30" height="6" fill="#dc2626"/>
+    
+    <!-- Laptop -->
+    <rect x="220" y="320" width="50" height="30" fill="#374151" rx="2"/>
+    <rect x="225" y="325" width="40" height="20" fill="#1f2937"/>
+    
+    <!-- Certificates -->
+    <rect x="30" y="40" width="30" height="20" fill="white" stroke="#fbbf24" stroke-width="2"/>
+    <text x="45" y="52" font-family="Arial" font-size="8" font-weight="bold" text-anchor="middle" fill="#f59e0b">CERT</text>
+    
+    <!-- Code symbols -->
+    <text x="240" y="80" font-family="monospace" font-size="16" fill="#6b7280">&lt;/&gt;</text>
+    <text x="240" y="120" font-family="monospace" font-size="16" fill="#6b7280">{}</text>
+  </g>
+  
+  <!-- Name plate -->
+  <rect x="50" y="300" width="200" height="50" fill="white" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="150" y="320" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#1f2937">John Smith</text>
+  <text x="150" y="335" font-family="Arial" font-size="12" text-anchor="middle" fill="#2563eb">Director & Senior Instructor</text>
+  <text x="150" y="345" font-family="Arial" font-size="10" text-anchor="middle" fill="#6b7280">15+ years experience</text>
+</svg>

@@ -1,0 +1,78 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#fefce8"/>
+  
+  <!-- Collaborative Learning Space -->
+  <g transform="translate(40, 50)">
+    <!-- Round Tables -->
+    <circle cx="100" cy="80" r="40" fill="#f3f4f6" stroke="#9ca3af" stroke-width="2"/>
+    <circle cx="220" cy="80" r="40" fill="#f3f4f6" stroke="#9ca3af" stroke-width="2"/>
+    <circle cx="160" cy="160" r="40" fill="#f3f4f6" stroke="#9ca3af" stroke-width="2"/>
+    
+    <!-- Laptops on tables -->
+    <rect x="80" y="70" width="25" height="18" fill="#1f2937" rx="2"/>
+    <rect x="115" y="70" width="25" height="18" fill="#1f2937" rx="2"/>
+    <rect x="90" y="90" width="25" height="18" fill="#1f2937" rx="2"/>
+    
+    <rect x="200" y="70" width="25" height="18" fill="#1f2937" rx="2"/>
+    <rect x="235" y="70" width="25" height="18" fill="#1f2937" rx="2"/>
+    <rect x="210" y="90" width="25" height="18" fill="#1f2937" rx="2"/>
+    
+    <rect x="140" y="150" width="25" height="18" fill="#1f2937" rx="2"/>
+    <rect x="175" y="150" width="25" height="18" fill="#1f2937" rx="2"/>
+    <rect x="150" y="175" width="25" height="18" fill="#1f2937" rx="2"/>
+    
+    <!-- Chairs around tables -->
+    <g fill="#eab308">
+      <!-- Table 1 chairs -->
+      <rect x="95" y="40" width="12" height="8" rx="2"/>
+      <rect x="95" y="112" width="12" height="8" rx="2"/>
+      <rect x="70" y="75" width="8" height="12" rx="2"/>
+      <rect x="125" y="75" width="8" height="12" rx="2"/>
+      
+      <!-- Table 2 chairs -->
+      <rect x="215" y="40" width="12" height="8" rx="2"/>
+      <rect x="215" y="112" width="12" height="8" rx="2"/>
+      <rect x="190" y="75" width="8" height="12" rx="2"/>
+      <rect x="245" y="75" width="8" height="12" rx="2"/>
+      
+      <!-- Table 3 chairs -->
+      <rect x="155" y="120" width="12" height="8" rx="2"/>
+      <rect x="155" y="192" width="12" height="8" rx="2"/>
+      <rect x="130" y="155" width="8" height="12" rx="2"/>
+      <rect x="185" y="155" width="8" height="12" rx="2"/>
+    </g>
+    
+    <!-- Collaborative whiteboard -->
+    <rect x="260" y="20" width="60" height="40" fill="white" stroke="#eab308" stroke-width="2"/>
+    <rect x="265" y="25" width="50" height="30" fill="#fffbeb"/>
+    <text x="290" y="35" font-family="Arial" font-size="8" font-weight="bold" text-anchor="middle" fill="#d97706">Team Ideas</text>
+    <circle cx="275" cy="45" r="3" fill="#f59e0b"/>
+    <circle cx="290" cy="45" r="3" fill="#f59e0b"/>
+    <circle cx="305" cy="45" r="3" fill="#f59e0b"/>
+    <line x1="275" y1="45" x2="290" y2="45" stroke="#f59e0b" stroke-width="1"/>
+    <line x1="290" y1="45" x2="305" y2="45" stroke="#f59e0b" stroke-width="1"/>
+    
+    <!-- Presentation screen -->
+    <rect x="20" y="20" width="80" height="50" fill="white" stroke="#9ca3af" stroke-width="2"/>
+    <rect x="25" y="25" width="70" height="40" fill="#f8fafc"/>
+    <text x="60" y="35" font-family="Arial" font-size="8" font-weight="bold" text-anchor="middle" fill="#475569">Learning</text>
+    <text x="60" y="45" font-family="Arial" font-size="8" font-weight="bold" text-anchor="middle" fill="#475569">Together</text>
+    <rect x="35" y="50" width="50" height="3" fill="#eab308"/>
+    <rect x="35" y="55" width="30" height="3" fill="#eab308"/>
+    
+    <!-- Books and materials -->
+    <rect x="60" y="200" width="15" height="2" fill="#dc2626"/>
+    <rect x="80" y="200" width="15" height="2" fill="#2563eb"/>
+    <rect x="100" y="200" width="15" height="2" fill="#059669"/>
+    <rect x="120" y="200" width="15" height="2" fill="#7c3aed"/>
+    
+    <!-- Coffee mugs -->
+    <circle cx="90" cy="85" r="3" fill="#92400e"/>
+    <circle cx="210" cy="85" r="3" fill="#92400e"/>
+    <circle cx="150" cy="165" r="3" fill="#92400e"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="200" y="280" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#334155">Collaborative Learning Space</text>
+</svg>

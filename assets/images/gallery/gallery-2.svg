@@ -1,0 +1,58 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f0f9ff"/>
+  
+  <!-- Interactive Classroom -->
+  <g transform="translate(30, 40)">
+    <!-- Whiteboard -->
+    <rect x="0" y="0" width="340" height="80" fill="white" stroke="#2563eb" stroke-width="3"/>
+    <rect x="10" y="10" width="320" height="60" fill="#fafafa"/>
+    
+    <!-- Whiteboard Content -->
+    <text x="170" y="30" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#2563eb">KK Computers Training</text>
+    <line x1="50" y1="40" x2="290" y2="40" stroke="#2563eb" stroke-width="2"/>
+    <text x="50" y="55" font-family="Arial" font-size="12" fill="#1e40af">• Programming Fundamentals</text>
+    <text x="200" y="55" font-family="Arial" font-size="12" fill="#1e40af">• Web Development</text>
+    <text x="50" y="68" font-family="Arial" font-size="12" fill="#1e40af">• Database Management</text>
+    <text x="200" y="68" font-family="Arial" font-size="12" fill="#1e40af">• Cloud Computing</text>
+    
+    <!-- Instructor Area -->
+    <rect x="150" y="90" width="40" height="60" fill="#3b82f6" rx="20"/>
+    <circle cx="170" cy="110" r="15" fill="#fbbf24"/>
+    <rect x="160" y="125" width="20" height="25" fill="#3b82f6"/>
+    
+    <!-- Student Desks -->
+    <g transform="translate(20, 170)">
+      <!-- Row 1 -->
+      <rect x="0" y="0" width="60" height="40" fill="#e5e7eb" stroke="#9ca3af" stroke-width="1"/>
+      <rect x="80" y="0" width="60" height="40" fill="#e5e7eb" stroke="#9ca3af" stroke-width="1"/>
+      <rect x="160" y="0" width="60" height="40" fill="#e5e7eb" stroke="#9ca3af" stroke-width="1"/>
+      <rect x="240" y="0" width="60" height="40" fill="#e5e7eb" stroke="#9ca3af" stroke-width="1"/>
+      
+      <!-- Row 2 -->
+      <rect x="0" y="60" width="60" height="40" fill="#e5e7eb" stroke="#9ca3af" stroke-width="1"/>
+      <rect x="80" y="60" width="60" height="40" fill="#e5e7eb" stroke="#9ca3af" stroke-width="1"/>
+      <rect x="160" y="60" width="60" height="40" fill="#e5e7eb" stroke="#9ca3af" stroke-width="1"/>
+      <rect x="240" y="60" width="60" height="40" fill="#e5e7eb" stroke="#9ca3af" stroke-width="1"/>
+      
+      <!-- Laptops on desks -->
+      <rect x="10" y="10" width="40" height="25" fill="#1f2937" rx="2"/>
+      <rect x="90" y="10" width="40" height="25" fill="#1f2937" rx="2"/>
+      <rect x="170" y="10" width="40" height="25" fill="#1f2937" rx="2"/>
+      <rect x="250" y="10" width="40" height="25" fill="#1f2937" rx="2"/>
+      
+      <rect x="10" y="70" width="40" height="25" fill="#1f2937" rx="2"/>
+      <rect x="90" y="70" width="40" height="25" fill="#1f2937" rx="2"/>
+      <rect x="170" y="70" width="40" height="25" fill="#1f2937" rx="2"/>
+      <rect x="250" y="70" width="40" height="25" fill="#1f2937" rx="2"/>
+    </g>
+    
+    <!-- Overhead Projector -->
+    <rect x="280" y="100" width="20" height="15" fill="#6b7280"/>
+    <rect x="285" y="85" width="10" height="15" fill="#6b7280"/>
+    <line x1="290" y1="85" x2="170" y2="40" stroke="#fbbf24" stroke-width="3" opacity="0.7"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="200" y="280" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#334155">Interactive Classroom</text>
+</svg>
